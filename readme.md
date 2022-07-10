@@ -11,6 +11,7 @@ Konta: login/haslo
 
 
 Opis funkconalności:
+
 	-Użytkownik:
 		rejestracja
 		logowanie
