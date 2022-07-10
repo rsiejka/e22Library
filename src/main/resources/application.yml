@@ -1,0 +1,23 @@
+config:
+  mysql:
+    url: localhost:3306
+    db-name: library
+    username: root
+    password:
+spring:
+  datasource:
+    url: jdbc:mysql://${config.mysql.url}/${config.mysql.db-name}
+    username: ${config.mysql.username}
+    password: ${config.mysql.password}
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        ddl-auto: create-drop
+        dialect: org.hibernate.dialect.MariaDB103Dialect
+        show-sql: false
+  mvc:
+    view:
+      resources:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
