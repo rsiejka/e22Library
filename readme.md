@@ -1,6 +1,6 @@
-Skrypt do stworzenia bazy danych: library.sql
-Konfiguracja połączenia z bazą danych: application.yml
-Domyślny connector bazy danych: mysql, zmiany należy dokonać w pom.xml oraz zmienić dialect w application.yml
+Skrypt do stworzenia bazy danych: library.sql  
+Konfiguracja połączenia z bazą danych: application.yml  
+Domyślny connector bazy danych: mysql, zmiany należy dokonać w pom.xml oraz zmienić dialect w application.yml  
 
 Konta: login/haslo
 
